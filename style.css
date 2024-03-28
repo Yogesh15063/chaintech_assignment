@@ -1,0 +1,390 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    background-color: rgb(22, 21, 21);
+    color: white;
+    height: 78px;
+    border:  white;
+}
+
+.list {
+    margin: 0 10px; /* Adjust the spacing between items */
+    padding: 30px;
+    height: 27px;
+    
+}
+.list:hover {
+    margin: 0 10px; /* Adjust the spacing between items */
+    padding: 30px;
+    height: 27px;
+    color: #00FFA7;
+    
+}
+
+img {
+    margin-right: 20px; /* Adjust distance between logo and items */
+    height: 110px; /* Increase the size of the logo */
+}
+
+
+.head {
+    text-align: center;
+   /* Adjust the margin-top as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    
+}
+
+.heading {
+    font-size: 86px;
+    font-weight: bolder;
+    margin-top: 50px;
+    line-height: 1;
+}
+
+
+
+.to-chaintech {
+    font-size: inherit; /* Inherit font size */
+    font-family: 'Poppins', sans-serif; /* Use your desired font */
+    background: linear-gradient(45deg, rgba(0, 255, 167, 1), rgba(255, 255, 0, 1)); /* Apply gradient background */
+    -webkit-background-clip: text; /* Apply background gradient to text for webkit browsers */
+    background-clip: text; /* Apply background gradient to text */
+    -webkit-text-fill-color: transparent; /* Hide original text color for webkit browsers */
+    color: transparent; /* Hide original text color for other browsers */
+}
+
+
+.paragraph p {
+    max-width: 50%; /* Set the maximum width as needed */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    font-size: smaller;
+}
+
+.get-started-btn {
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 20px; /* Adjust top margin as needed */
+    margin-bottom: 30px;
+}
+
+
+
+
+.get-started-btn:hover {
+    background-color: #333; /* Darken background color on hover */
+}
+
+.btn-text {
+    display: inline-block; /* Ensures the text and arrow are inline */
+    vertical-align: middle; /* Vertically aligns the text and arrow */
+    font-weight: bold;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    background-color: linear-gradient(45deg, rgba(0, 255, 167, 1), rgba(255, 255, 0, 1)); /* Background color for the circular arrow */
+    color: black; /* Color of the arrow */
+    border-radius: 50%; /* Makes the arrow circular */
+    font-size: 16px; /* Font size for the arrow */
+    line-height: 20px; /* Ensures the arrow is centered vertically */
+    text-align: center; /* Centers the arrow content */
+    margin-left: 10px; /* Adjust margin between text and arrow */
+}
+
+
+.services{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* styles.css */
+/* styles.css */
+
+/* styles.css */
+.container{
+    display: flex;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns in each row */
+    grid-gap: 20px; /* Adjust the gap between cards */
+}
+
+.card {
+    width: 200px;
+    background-color: #deffec;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000000;
+   
+    margin: 21px 4px 4px 4px;
+}
+
+.card-header,
+.card-footer,
+.card-body {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    font-size: larger;
+}
+
+.card-header {
+    background-color: #deffec;
+    color: #000000;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center; /* Center icon and title vertically */
+}
+
+.card-footer {
+    background-color: #deffec;
+    color: #6c757d;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.icon {
+    background-color: #000000;
+    color: white;
+    border-radius: 50%; /* Make the icon circular */
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.explore_button{
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.card2 {
+    width: 200px;
+    background-color: #d9fcfe;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000000;
+   
+    margin: 21px 4px 4px 4px;
+}
+
+.card-header2,
+.card-footer2,
+.card-body2{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    font-size: larger;
+}
+.card-header2 {
+    background-color: #d9fcfe;
+    color: #000000;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center; /* Center icon and title vertically */
+}
+
+.card-footer2 {
+    background-color: #d9fcfe;
+    color: #6c757d;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.icon2 {
+    background-color: #000000;
+    color: white;
+    border-radius: 50%; /* Make the icon circular */
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title2 {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.card3 {
+    width: 200px;
+    background-color: #fee6e6;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000000;
+   
+    margin: 21px 4px 4px 4px;
+}
+
+.card-header3,
+.card-footer3,
+.card-body3{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    font-size: larger;
+}
+.card-header3 {
+    background-color: #fee6e6;
+    color: #000000;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center; /* Center icon and title vertically */
+}
+
+.card-footer3 {
+    background-color: #fee6e6;
+    color: #6c757d;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.icon3 {
+    background-color: #000000;
+    color: white;
+    border-radius: 50%; /* Make the icon circular */
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title3 {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.card4 {
+    width: 200px;
+    background-color: #dfe3fc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000000;
+   
+    margin: 21px 4px 4px 4px;
+}
+
+.card-header4,
+.card-footer4,
+.card-body4{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    font-size: larger;
+}
+.card-header4 {
+    background-color: #dfe3fc;
+    color: #000000;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center; /* Center icon and title vertically */
+}
+
+.card-footer4 {
+    background-color: #dfe3fc;
+    color: #6c757d;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.icon4{
+    background-color: #000000;
+    color: white;
+    border-radius: 50%; /* Make the icon circular */
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title4 {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+footer {
+    text-align: center; /* Center the content horizontally */
+    padding: 20px 0; /* Add padding for spacing */
+    background-color: #000000;
+    color: white;
+}
+
+footer img {
+    display: block; /* Make the logo a block element */
+    margin: auto; /* Center the logo horizontally */
+    margin-bottom: 10px; /* Add some spacing between the logo and text */
+    height: 91px;
+}
+
+footer span {
+    display: block; /* Make the text a block element */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+
+footer div {
+    width: 80%; /* Adjust the width of the line */
+    margin: 0 auto; /* Center the line horizontally */
+    border-bottom: 1px solid white; /* Add a horizontal line */
+    margin-bottom: 10px; /* Add some spacing between the line and text */
+}
